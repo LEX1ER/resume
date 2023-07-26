@@ -1,0 +1,12 @@
+// app global css in SCSS form
+@use 'sass:color';
+
+@for $i from 1 through 10 {
+  .bg-primary-#{$i} {
+    background-color: color.scale($primary, $lightness: 100% - ($i * 10));
+  }
+}
+
+.text-normal {
+  font-weight: normal;
+}
