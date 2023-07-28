@@ -40,8 +40,6 @@
             </div>
           </div>
         </div>
-
-        <br v-for="i in 50" :key="`br${i}`" />
       </div>
 
       <div class="col col-8 q-pa-md">
