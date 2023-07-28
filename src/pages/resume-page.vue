@@ -104,9 +104,9 @@ const ratings = [
   'Very Good',
   'Excellent',
 ] as string[];
-
-const jsonFile = `./${id}.json`;
-import(jsonFile).then((module) => {
+ 
+ 
+import(`./data/${id}.json`).then((module) => {
   json.value = module.default;
 });
 </script>

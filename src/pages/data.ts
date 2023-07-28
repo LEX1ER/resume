@@ -1,4 +1,4 @@
-import lexter from './lexter.json';
+import lexter from './data/lexter.json';
 
 export default {
   ...lexter,
