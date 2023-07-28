@@ -1,0 +1,164 @@
+{
+  "name": "LEXTER RAE D. SABADO",
+  "position": "Programmer",
+  "image": "lexter.jpg",
+  "details": [
+    {
+      "title": "Personal Information",
+      "articles": [
+        {
+          "label": "Address",
+          "text": "Purok 2, Callao Alicia, Isabela",
+          "rating": 0
+        },
+        {
+          "label": "C.P. Number",
+          "text": "(+63) 905 406 7722",
+          "rating": 0
+        },
+        {
+          "label": "E-Mail",
+          "text": "lexterrae.dumo.sabado@gmail.com",
+          "rating": 0
+        },
+        {
+          "label": "Date Of Birth",
+          "text": "May 16, 1998",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "articles": [
+        {
+          "label": "Object Oriented Programming (OOP)",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": ".NET, PHP & Node JS",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": "Vue, Angular, React & Svelte",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": "Entity Framework & Hot Chocolate",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": "Symfony & Laravel Framework",
+          "text": "",
+          "rating": 5
+        }
+      ]
+    }
+  ],
+  "bio": {
+    "description": "Successful Programmer with exceptional talents in .NET, PHP and Node JS. Reliable and a hard worker.",
+    "data": [
+      {
+        "label": "WORK HISTORY",
+        "details": [
+          {
+            "text": "",
+            "date": "2021 - Present",
+            "label": "Programmer",
+            "description": "Isabela State University - Echague Isabela",
+            "messages": [
+              "Developed software solutions independently to enhance user experience and improve overall functionality and performance.",
+              "Worked closely with university stakeholders to identify problem specifications and design effective system solutions.",
+              "Proactively researched and recommended new technologies and tools to optimize product value and increase personal productivity."
+            ]
+          },
+          {
+            "text": "",
+            "date": "2020 - 2021",
+            "label": "Programmer",
+            "description": "OmniTech Business Solutions",
+            "messages": [
+              "Collaborated with cross-functional teams to develop innovative software solutions that enhanced the user experience and significantly improved the overall functionality and performance.",
+              "Worked closely with clients to establish problem specifications and system designs.",
+              "Maintained existing applications and designed and delivered new applications."
+            ]
+          },
+          {
+            "text": "",
+            "date": "2019 - 2020",
+            "label": "IT Support / Specialist",
+            "description": "Aljay Agro-Industrial Solutions, Incorporated",
+            "messages": []
+          },
+          {
+            "text": "",
+            "date": "2018 - 2019",
+            "label": "Programmer",
+            "description": "BPR Advisors, Cauayan City, Isabela"
+          }
+        ]
+      },
+      {
+        "label": "EDUCATION",
+        "details": [
+          {
+            "text": "",
+            "date": "Jun 2004 -<br />Mar 2008",
+            "label": "Elementary",
+            "description": "Callao Elementary School - Alicia, Isabela",
+            "messages": []
+          },
+          {
+            "text": "",
+            "date": "Jun 2008 -<br />Mar 2010",
+            "label": "Elementary",
+            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
+            "messages": []
+          },
+          {
+            "text": "",
+            "date": "Jun 2010 -<br />Mar 2014",
+            "label": "High School",
+            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
+            "messages": []
+          },
+          {
+            "text": "",
+            "date": "Jun 2014 -<br />Mar 2018",
+            "label": "Bachelor of Science: Information Technology",
+            "description": "Isabela State University - Echague, Isabela",
+            "messages": []
+          }
+        ]
+      },
+      {
+        "label": "CERTIFICATE",
+        "details": [
+          {
+            "text": "",
+            "date": "2015 - 2020",
+            "label": "Computer Hardware Servicing<br />National Certificate II",
+            "description": "Isabela State University - Echague Isabela",
+            "messages": []
+          }
+        ]
+      },
+      {
+        "label": "CHARACTER REFERENCES",
+        "details": [
+          {
+            "text": "Available upon request.",
+            "date": "",
+            "label": "",
+            "description": "",
+            "messages": []
+          }
+        ]
+      }
+    ]
+  }
+}
