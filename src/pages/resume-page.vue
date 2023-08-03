@@ -52,7 +52,14 @@
             class="col col-12"
           >
             <q-separator color="primary"></q-separator>
-            <div class="text-h6 q-py-sm text-primary">{{ data.label }}</div>
+            <div
+              class="text-h6 q-py-sm text-primary"
+              @click="
+                data.label == 'CHARACTER REFERENCES' ? showReference() : null
+              "
+            >
+              {{ data.label }}
+            </div>
             <q-separator color="primary"></q-separator>
 
             <div class="row q-col-gutter-sm q-pt-md">
@@ -63,15 +70,7 @@
               >
                 <div class="row q-col-gutter-x-md">
                   <div v-if="detail.list.length > 0 && reference">
-                    <div
-                      v-for="list in detail.list"
-                      :key="list"
-                      @click="
-                        data.label == 'CHARACTER REFERENCES'
-                          ? showReference()
-                          : null
-                      "
-                    >
+                    <div v-for="list in detail.list" :key="list">
                       {{ list }}
                     </div>
                   </div>
@@ -113,11 +112,6 @@
                     <div
                       class="text-italic"
                       v-html="detail.description"
-                      @click="
-                        data.label == 'CHARACTER REFERENCES'
-                          ? showReference()
-                          : null
-                      "
                       v-if="!reference || data.label != 'CHARACTER REFERENCES'"
                     />
                     <div>
