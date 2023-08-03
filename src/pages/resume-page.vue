@@ -40,6 +40,7 @@
             </div>
           </div>
         </div>
+        <br v-for="i in 10" :key="i" />
       </div>
 
       <div class="col col-8 q-pa-md">
@@ -61,8 +62,43 @@
                 class="col col-12"
               >
                 <div class="row q-col-gutter-x-md">
+                  <div v-if="detail.list.length > 0">
+                    <div v-for="list in detail.list" :key="list">
+                      {{ list }}
+                    </div>
+                  </div>
                   <div class="col col-12 text-italic" v-html="detail.text" />
-                  <div class="col col-3" v-html="detail.date" />
+                  <div
+                    class="col col-3"
+                    v-if="detail.date.from != '' && detail.date.to != ''"
+                  >
+                    <span
+                      v-if="
+                        detail.date.from &&
+                        detail.date.to &&
+                        detail.date.to != 'Present'
+                      "
+                      :title="`${moment(detail.date.from).format(
+                        'MMMM D, YYYY'
+                      )} - ${moment(detail.date.to).format('MMMM D, YYYY')}`"
+                    >
+                      {{ moment(detail.date.from).format(detail.date.format) }}
+                      -
+                      {{ moment(detail.date.to).format(detail.date.format) }}
+                    </span>
+                    <span
+                      v-else-if="
+                        detail.date.from && detail.date.to == 'Present'
+                      "
+                      :title="`${moment(detail.date.from).format(
+                        'MMMM D, YYYY'
+                      )} - ${detail.date.to}`"
+                    >
+                      {{ moment(detail.date.from).format(detail.date.format) }}
+                      -
+                      {{ detail.date.to }}
+                    </span>
+                  </div>
                   <div class="col col-9">
                     <div class="text-h7" v-html="detail.label" />
                     <div class="text-italic" v-html="detail.description" />
@@ -90,6 +126,7 @@
 import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import type data from './data';
+import moment from 'moment';
 type JSON = typeof data;
 
 const id = useRouter().currentRoute.value.params.id;
@@ -102,8 +139,7 @@ const ratings = [
   'Very Good',
   'Excellent',
 ] as string[];
- 
- 
+
 import(`./data/${id}.json`).then((module) => {
   json.value = module.default;
 });

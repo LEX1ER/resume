@@ -67,38 +67,59 @@
         "details": [
           {
             "text": "",
-            "date": "2021 - Present",
-            "label": "Programmer",
+            "date": {
+              "from": "01/18/2022",
+              "to": "Present",
+              "format": "Y"
+            },
+            "label": "Compuer Programmer",
             "description": "Isabela State University - Echague Isabela",
             "messages": [
               "Developed software solutions independently to enhance user experience and improve overall functionality and performance.",
               "Worked closely with university stakeholders to identify problem specifications and design effective system solutions.",
               "Proactively researched and recommended new technologies and tools to optimize product value and increase personal productivity."
-            ]
+            ],
+            "list": []
           },
           {
             "text": "",
-            "date": "2020 - 2021",
-            "label": "Programmer",
+            "date": {
+              "from": "07/16/2020",
+              "to": "01/14/2022",
+              "format": "Y"
+            },
+            "label": "Co-Founder",
             "description": "OmniTech Business Solutions",
             "messages": [
               "Collaborated with cross-functional teams to develop innovative software solutions that enhanced the user experience and significantly improved the overall functionality and performance.",
               "Worked closely with clients to establish problem specifications and system designs.",
               "Maintained existing applications and designed and delivered new applications."
-            ]
+            ],
+            "list": []
           },
           {
             "text": "",
-            "date": "2019 - 2020",
-            "label": "IT Support / Specialist",
+            "date": {
+              "from": "10/17/2019",
+              "to": "07/15/2020",
+              "format": "Y"
+            },
+            "label": "IT Support",
             "description": "Aljay Agro-Industrial Solutions, Incorporated",
-            "messages": []
+            "messages": [],
+            "list": []
           },
           {
             "text": "",
-            "date": "2018 - 2019",
-            "label": "Programmer",
-            "description": "BPR Advisors, Cauayan City, Isabela"
+            "date": {
+              "from": "07/26/2018",
+              "to": "08/30/2019",
+              "format": "Y"
+            },
+            "label": "IT Programmer",
+            "description": "BPR Advisors, Cauayan City, Isabela",
+            "messages": [],
+            "list": []
           }
         ]
       },
@@ -107,31 +128,51 @@
         "details": [
           {
             "text": "",
-            "date": "Jun 2004 -<br />Mar 2008",
-            "label": "Elementary",
-            "description": "Callao Elementary School - Alicia, Isabela",
-            "messages": []
-          },
-          {
-            "text": "",
-            "date": "Jun 2008 -<br />Mar 2010",
-            "label": "Elementary",
-            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
-            "messages": []
-          },
-          {
-            "text": "",
-            "date": "Jun 2010 -<br />Mar 2014",
-            "label": "High School",
-            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
-            "messages": []
-          },
-          {
-            "text": "",
-            "date": "Jun 2014 -<br />Mar 2018",
+            "date": {
+              "from": "06/01/2014",
+              "to": "03/01/2018",
+              "format": "MMM Y"
+            },
             "label": "Bachelor of Science: Information Technology",
             "description": "Isabela State University - Echague, Isabela",
-            "messages": []
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2010",
+              "to": "03/01/2014",
+              "format": "MMM Y"
+            },
+            "label": "High School",
+            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2008",
+              "to": "03/01/2010",
+              "format": "MMM Y"
+            },
+            "label": "Elementary",
+            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2004",
+              "to": "03/01/2008",
+              "format": "MMM Y"
+            },
+            "label": "Elementary",
+            "description": "Callao Elementary School - Alicia, Isabela",
+            "messages": [],
+            "list": []
           }
         ]
       },
@@ -140,10 +181,15 @@
         "details": [
           {
             "text": "",
-            "date": "2015 - 2020",
+            "date": {
+              "from": "2015",
+              "to": "2020",
+              "format": "Y"
+            },
             "label": "Computer Hardware Servicing<br />National Certificate II",
             "description": "Isabela State University - Echague Isabela",
-            "messages": []
+            "messages": [],
+            "list": []
           }
         ]
       },
@@ -151,11 +197,16 @@
         "label": "CHARACTER REFERENCES",
         "details": [
           {
-            "text": "Available upon request.",
-            "date": "",
+            "text": "",
+            "date": {
+              "from": "",
+              "to": "",
+              "format": ""
+            },
             "label": "",
-            "description": "",
-            "messages": []
+            "description": "Available upon request.",
+            "messages": [],
+            "list": []
           }
         ]
       }
