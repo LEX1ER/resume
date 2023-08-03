@@ -62,8 +62,16 @@
                 class="col col-12"
               >
                 <div class="row q-col-gutter-x-md">
-                  <div v-if="detail.list.length > 0">
-                    <div v-for="list in detail.list" :key="list">
+                  <div v-if="detail.list.length > 0 && reference">
+                    <div
+                      v-for="list in detail.list"
+                      :key="list"
+                      @click="
+                        data.label == 'CHARACTER REFERENCES'
+                          ? showReference()
+                          : null
+                      "
+                    >
                       {{ list }}
                     </div>
                   </div>
@@ -102,7 +110,16 @@
                   </div>
                   <div class="col col-9">
                     <div class="text-h7" v-html="detail.label" />
-                    <div class="text-italic" v-html="detail.description" />
+                    <div
+                      class="text-italic"
+                      v-html="detail.description"
+                      @click="
+                        data.label == 'CHARACTER REFERENCES'
+                          ? showReference()
+                          : null
+                      "
+                      v-if="!reference || data.label != 'CHARACTER REFERENCES'"
+                    />
                     <div>
                       <ul>
                         <li
@@ -140,6 +157,12 @@ const ratings = [
   'Very Good',
   'Excellent',
 ] as string[];
+
+const reference = ref(false);
+
+function showReference() {
+  reference.value = !reference.value;
+}
 
 import(`./data/${id}.json`).then((module) => {
   json.value = module.default;
