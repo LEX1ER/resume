@@ -84,6 +84,7 @@
                     >
                       {{ moment(detail.date.from).format(detail.date.format) }}
                       -
+                      <br v-if="detail.date.format.indexOf('\n') != -1" />
                       {{ moment(detail.date.to).format(detail.date.format) }}
                     </span>
                     <span

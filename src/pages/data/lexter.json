@@ -131,7 +131,7 @@
             "date": {
               "from": "06/01/2014",
               "to": "03/01/2018",
-              "format": "MMM Y"
+              "format": "MMM Y\n"
             },
             "label": "Bachelor of Science: Information Technology",
             "description": "Isabela State University - Echague, Isabela",
@@ -143,7 +143,7 @@
             "date": {
               "from": "06/01/2010",
               "to": "03/01/2014",
-              "format": "MMM Y"
+              "format": "MMM Y\n"
             },
             "label": "High School",
             "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
@@ -155,7 +155,7 @@
             "date": {
               "from": "06/01/2008",
               "to": "03/01/2010",
-              "format": "MMM Y"
+              "format": "MMM Y\n"
             },
             "label": "Elementary",
             "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
@@ -167,7 +167,7 @@
             "date": {
               "from": "06/01/2004",
               "to": "03/01/2008",
-              "format": "MMM Y"
+              "format": "MMM Y\n"
             },
             "label": "Elementary",
             "description": "Callao Elementary School - Alicia, Isabela",
