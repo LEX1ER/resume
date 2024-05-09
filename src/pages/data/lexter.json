@@ -68,11 +68,26 @@
           {
             "text": "",
             "date": {
-              "from": "01/18/2022",
+              "from": "10/23/2023",
               "to": "Present",
               "format": "Y"
             },
-            "label": "Compuer Programmer",
+            "label": "Senior Software Engineer",
+            "description": "Accenture - Taguig, Uptown Bonifacio Tower 2",
+            "messages": [
+              "Helped migrate an Application from WebForms into ASP.NET Core.",
+              "Continues Learning new Technologies and Improving my Programming Knowledege."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "01/18/2022",
+              "to": "10/06/2023",
+              "format": "Y"
+            },
+            "label": "Computer Programmer",
             "description": "Isabela State University - Echague Isabela",
             "messages": [
               "Developed software solutions independently to enhance user experience and improve overall functionality and performance.",
@@ -90,11 +105,7 @@
             },
             "label": "Co-Founder",
             "description": "OmniTech Business Solutions",
-            "messages": [
-              "Collaborated with cross-functional teams to develop innovative software solutions that enhanced the user experience and significantly improved the overall functionality and performance.",
-              "Worked closely with clients to establish problem specifications and system designs.",
-              "Maintained existing applications and designed and delivered new applications."
-            ],
+            "messages": [],
             "list": []
           },
           {
@@ -123,6 +134,167 @@
           }
         ]
       },
+      {
+        "label": "PROJECTS",
+        "details": [
+          {
+            "text": "",
+            "date": {
+              "from": "04/24/2024",
+              "to": "Present",
+              "format": "MMM Y\n"
+            },
+            "label": "Transfer Genie, Accumark/YuniquePLM",
+            "description": "",
+            "messages": ["Supporting the following Application"],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "01/24/2024",
+              "to": "04/23/2024",
+              "format": "MMM Y\n"
+            },
+            "label": "Collection Portal",
+            "description": "",
+            "messages": [
+              "It's a Brocker, Remitance and Payment Application that was written into WebForms.",
+              "My role is to Migrate the application from WebForms into ASP.NET Core.",
+              "I used <b>Object Oriented Programming (OOP)</b> and <b>Repository Pattern</b>.",
+              "I also <b>Okta</b> for Authentication and used <b>HttpClient</b> for the APIs."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "10/23/2023",
+              "to": "01/23/2024",
+              "format": "MMM Y\n"
+            },
+            "label": "Bench",
+            "description": "",
+            "messages": [
+              "Learn and Implement <b>Docker</b>.",
+              "Learn and Implement <b>Azure DevOps</b>.",
+              "Learn and Implement <b>Microservices</b>."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "01/24/2022",
+              "to": "10/06/2023",
+              "format": "MMM Y\n"
+            },
+            "label": "UAIMS",
+            "description": "",
+            "messages": [
+              "I'm the main programmer and created the followings. - User CRUD page - University Campuses, Colleges and Courses / Programs CRUD Page - Login Page w/ Multiple account types and hierarchy of the account - CRUD Page of different modules - Approving Page of different modules - History Page of different modules - Different Report Dashboard of all modules."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "10/12/2020",
+              "to": "01/14/2022",
+              "format": "MMM Y\n"
+            },
+            "label": "PNP Lingkod BAYANihan",
+            "description": "",
+            "messages": [
+              " I'm the lead programmer, and created the followings. ++ Desktop App - Login Page - User Listing Page - Realtime User Registration Notification - Approving of Users ++ Web Api - FB Chatbot User Registration API - FB Chatbot Oplan-Visa Registration API - FB Chatbot Oplan-Visa Validation - FB Chatbot Sumbungan ng Bayan API - FB Chatbot dynamic responses base on API"
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "07/20/2020",
+              "to": "10/09/2020",
+              "format": "MMM Y\n"
+            },
+            "label": "Delivery Boy PH",
+            "description": "",
+            "messages": [
+              "I'm one of the coders that created the following. - Landing Page of Delivery App - Server-Side loading Products on the Landing Page."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "10/21/2019",
+              "to": "07/10/2020",
+              "format": "MMM Y\n"
+            },
+            "label": "Work Approval Automation",
+            "description": "",
+            "messages": [
+              "I'm the main developer of the followings. - Login Page - Implementation of Firebase Auth (company email login) - CRUD Module of Request Letter - Implementation Google API (listing of company email, automatic sending email)"
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "",
+              "to": "",
+              "format": ""
+            },
+            "label": "",
+            "description": "",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "01/07/2019",
+              "to": "08/30/2019",
+              "format": "MMM Y\n"
+            },
+            "label": "Profiling System",
+            "description": "",
+            "messages": [
+              "I'm one of the coders to create the following. - CRUD For Users, Addresses, GEO Location. - Module for Uploading the Pictures of the User. - SMS Notification - Sync Database when Online"
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "10/01/2018",
+              "to": "12/21/2018",
+              "format": "MMM Y\n"
+            },
+            "label": "Enrollment System",
+            "description": "",
+            "messages": [
+              "I'm one of the coders and created the following. - CRUD Module for Student Profile - CRUD Module for Enrollment Fee's - Login Page - SOA Report"
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "07/30/2018",
+              "to": "08/31/2018",
+              "format": "MMM Y\n"
+            },
+            "label": "Inventory & Accounting System",
+            "description": "",
+            "messages": [
+              "I'm one of the coders that created the following. - CRUD Module of Products - Printing of SOA Report"
+            ],
+            "list": []
+          }
+        ]
+      },
+
       {
         "label": "EDUCATION",
         "details": [

@@ -1,0 +1,221 @@
+{
+  "name": "LEXTER RAE D. SABADO",
+  "position": "Programmer",
+  "image": "lexter.jpg",
+  "details": [
+    {
+      "title": "Personal Information",
+      "articles": [
+        {
+          "label": "Address",
+          "text": "Purok 2, Callao Alicia, Isabela",
+          "rating": 0
+        },
+        {
+          "label": "C.P. Number",
+          "text": "(+63) 905 406 7722",
+          "rating": 0
+        },
+        {
+          "label": "E-Mail",
+          "text": "lexterrae.dumo.sabado@gmail.com",
+          "rating": 0
+        },
+        {
+          "label": "Date Of Birth",
+          "text": "May 16, 1998",
+          "rating": 0
+        }
+      ]
+    },
+    {
+      "title": "Skills",
+      "articles": [
+        {
+          "label": "Object Oriented Programming (OOP)",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": ".NET, PHP & Node JS",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": "Vue, Angular, React & Svelte",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": "Entity Framework & Hot Chocolate",
+          "text": "",
+          "rating": 5
+        },
+        {
+          "label": "Symfony & Laravel Framework",
+          "text": "",
+          "rating": 5
+        }
+      ]
+    }
+  ],
+  "bio": {
+    "description": "Successful Programmer with exceptional talents in .NET, PHP and Node JS. Reliable and a hard worker.",
+    "data": [
+      {
+        "label": "WORK HISTORY",
+        "details": [
+          {
+            "text": "",
+            "date": {
+              "from": "01/18/2022",
+              "to": "Present",
+              "format": "Y"
+            },
+            "label": "Compuer Programmer",
+            "description": "Isabela State University - Echague Isabela",
+            "messages": [
+              "Developed software solutions independently to enhance user experience and improve overall functionality and performance.",
+              "Worked closely with university stakeholders to identify problem specifications and design effective system solutions.",
+              "Proactively researched and recommended new technologies and tools to optimize product value and increase personal productivity."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "07/16/2020",
+              "to": "01/14/2022",
+              "format": "Y"
+            },
+            "label": "Co-Founder",
+            "description": "OmniTech Business Solutions",
+            "messages": [
+              "Collaborated with cross-functional teams to develop innovative software solutions that enhanced the user experience and significantly improved the overall functionality and performance.",
+              "Worked closely with clients to establish problem specifications and system designs.",
+              "Maintained existing applications and designed and delivered new applications."
+            ],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "10/17/2019",
+              "to": "07/15/2020",
+              "format": "Y"
+            },
+            "label": "IT Support",
+            "description": "Aljay Agro-Industrial Solutions, Incorporated",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "07/26/2018",
+              "to": "08/30/2019",
+              "format": "Y"
+            },
+            "label": "IT Programmer",
+            "description": "BPR Advisors, Cauayan City, Isabela",
+            "messages": [],
+            "list": []
+          }
+        ]
+      },
+      {
+        "label": "EDUCATION",
+        "details": [
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2014",
+              "to": "03/01/2018",
+              "format": "MMM Y\n"
+            },
+            "label": "Bachelor of Science: Information Technology",
+            "description": "Isabela State University - Echague, Isabela",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2010",
+              "to": "03/01/2014",
+              "format": "MMM Y\n"
+            },
+            "label": "High School",
+            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2008",
+              "to": "03/01/2010",
+              "format": "MMM Y\n"
+            },
+            "label": "Elementary",
+            "description": "School of Our Lady of Atocha (SOLA) -<br />Alicia, Isabela",
+            "messages": [],
+            "list": []
+          },
+          {
+            "text": "",
+            "date": {
+              "from": "06/01/2004",
+              "to": "03/01/2008",
+              "format": "MMM Y\n"
+            },
+            "label": "Elementary",
+            "description": "Callao Elementary School - Alicia, Isabela",
+            "messages": [],
+            "list": []
+          }
+        ]
+      },
+      {
+        "label": "CERTIFICATE",
+        "details": [
+          {
+            "text": "",
+            "date": {
+              "from": "2015",
+              "to": "2020",
+              "format": "Y"
+            },
+            "label": "Computer Hardware Servicing<br />National Certificate II",
+            "description": "Isabela State University - Echague Isabela",
+            "messages": [],
+            "list": []
+          }
+        ]
+      },
+      {
+        "label": "CHARACTER REFERENCES",
+        "details": [
+          {
+            "text": "",
+            "date": {
+              "from": "",
+              "to": "",
+              "format": ""
+            },
+            "label": "",
+            "description": "Available upon request.",
+            "messages": [],
+            "list": [
+              "QUENNIE JOY B. MESA - 929 972 9902",
+              "JOHN M. FACUN - 905 547 0794",
+              "ARIANNE FLOYD C. ORTEGA - 953 165 4773",
+              "CATLEEN MADAYAG - 935 758 4628",
+              "RENALYN G. TECSON - 945 366 1261"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

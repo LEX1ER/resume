@@ -40,7 +40,7 @@
             </div>
           </div>
         </div>
-        <br v-for="i in 10" :key="i" />
+        <br v-for="i in 0" :key="i" />
       </div>
 
       <div class="col col-8 q-pa-md">
