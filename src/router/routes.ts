@@ -1,10 +1,6 @@
 import { RouteRecordRaw } from 'vue-router';
 
-const routes: RouteRecordRaw[] = [
-  {
-    path: '/',
-    redirect: '/resume/lexter',
-  },
+const routes: RouteRecordRaw[] = [ 
   {
     path: '/resume/:id',
     component: () => import('layouts/app-layout.vue'),
@@ -15,7 +11,7 @@ const routes: RouteRecordRaw[] = [
   // but you can also remove it
   {
     path: '/:catchAll(.*)*',
-    redirect: '/resume/lexter',
+    redirect: '/resume/lexter-latest',
   },
 ];
 

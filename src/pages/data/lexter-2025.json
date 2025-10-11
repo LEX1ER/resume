@@ -76,7 +76,9 @@
             "description": "Accenture - Taguig, Uptown Bonifacio Tower 2",
             "messages": [
               "Helped migrate an Application from WebForms into ASP.NET Core.",
-              "Continues Learning new Technologies and Improving my Programming Knowledege."
+              "Continues Learning new Technologies and Improving my Programming Knowledege.",
+              "Migrated an Application from Angular JS 1 to Angular 15.",
+              "Develop an automation process that converts the Excel file provided by the business into a SQL INSERT statement."
             ],
             "list": []
           },
@@ -146,7 +148,11 @@
             },
             "label": "Transfer Genie, Accumark/YuniquePLM",
             "description": "",
-            "messages": ["Supporting the following Application"],
+            "messages": [
+              "Supporting the following Application",
+              "Migrated an Application from Angular JS 1 to Angular 15.",
+              "Develop an automation process that converts the Excel file provided by the business into a SQL INSERT statement."
+            ],
             "list": []
           },
           {
@@ -294,7 +300,6 @@
           }
         ]
       },
-
       {
         "label": "EDUCATION",
         "details": [

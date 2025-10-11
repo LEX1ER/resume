@@ -10,31 +10,19 @@
           <div class="text-h6 text-normal text-center" v-html="json.position" />
         </div>
         <div v-for="(detail, i) in json.details" :key="`detail${i}`">
-          <div
-            class="text-h5 text-bold bg-primary-5 q-pa-sm"
-            v-html="detail.title"
-          />
+          <div class="text-h5 text-bold bg-primary-5 q-pa-sm" v-html="detail.title" />
           <div class="q-pt-md q-pb-lg">
-            <div
-              class="q-pa-sm"
-              v-for="(article, j) in detail.articles"
-              :key="`article${j}`"
-            >
+            <div class="q-pa-sm" v-for="(article, j) in detail.articles" :key="`article${j}`">
               <strong v-html="article.label" />
               <div v-html="article.text" v-if="article.text" />
-              <div class="text-right" v-else>
-                <q-rating
-                  readonly
-                  v-model:model-value="article.rating"
-                  :icon="[
-                    'sentiment_very_dissatisfied',
-                    'sentiment_dissatisfied',
-                    'sentiment_neutral',
-                    'sentiment_satisfied',
-                    'sentiment_very_satisfied',
-                  ]"
-                  color="white"
-                />
+              <div class="text-right" v-else-if="article.rating">
+                <q-rating readonly v-model:model-value="article.rating" :icon="[
+                  'sentiment_very_dissatisfied',
+                  'sentiment_dissatisfied',
+                  'sentiment_neutral',
+                  'sentiment_satisfied',
+                  'sentiment_very_satisfied',
+                ]" color="white" />
                 <div v-html="ratings[article.rating - 1]"></div>
               </div>
             </div>
@@ -46,28 +34,17 @@
       <div class="col col-8 q-pa-md">
         <div class="row q-col-gutter-md">
           <div v-html="json.bio?.description" class="col col-12"></div>
-          <div
-            v-for="(data, i) in json.bio?.data"
-            :key="`data${i}`"
-            class="col col-12"
-          >
+          <div v-for="(data, i) in json.bio?.data" :key="`data${i}`" class="col col-12">
             <q-separator color="primary"></q-separator>
-            <div
-              class="text-h6 q-py-sm text-primary"
-              @click="
-                data.label == 'CHARACTER REFERENCES' ? showReference() : null
-              "
-            >
+            <div class="text-h6 q-py-sm text-primary" @click="
+              data.label == 'CHARACTER REFERENCES' ? showReference() : null
+              ">
               {{ data.label }}
             </div>
             <q-separator color="primary"></q-separator>
 
             <div class="row q-col-gutter-sm q-pt-md">
-              <div
-                v-for="(detail, i) in data.details"
-                :key="`bioDataDetail${i}`"
-                class="col col-12"
-              >
+              <div v-for="(detail, i) in data.details" :key="`bioDataDetail${i}`" class="col col-12">
                 <div class="row q-col-gutter-x-md">
                   <div v-if="detail.list.length > 0 && reference">
                     <div v-for="list in detail.list" :key="list">
@@ -75,33 +52,24 @@
                     </div>
                   </div>
                   <div class="col col-12 text-italic" v-html="detail.text" />
-                  <div
-                    class="col col-3"
-                    v-if="detail.date.from != '' && detail.date.to != ''"
-                  >
-                    <span
-                      v-if="
-                        detail.date.from &&
-                        detail.date.to &&
-                        detail.date.to != 'Present'
-                      "
-                      :title="`${moment(detail.date.from).format(
-                        'MMMM D, YYYY'
-                      )} - ${moment(detail.date.to).format('MMMM D, YYYY')}`"
-                    >
+                  <div class="col col-3" v-if="detail.date.from != '' && detail.date.to != ''">
+                    <span v-if="
+                      detail.date.from &&
+                      detail.date.to &&
+                      detail.date.to != 'Present'
+                    " :title="`${moment(detail.date.from).format(
+                      'MMMM D, YYYY'
+                    )} - ${moment(detail.date.to).format('MMMM D, YYYY')}`">
                       {{ moment(detail.date.from).format(detail.date.format) }}
                       -
                       <br v-if="detail.date.format.indexOf('\n') != -1" />
                       {{ moment(detail.date.to).format(detail.date.format) }}
                     </span>
-                    <span
-                      v-else-if="
-                        detail.date.from && detail.date.to == 'Present'
-                      "
-                      :title="`${moment(detail.date.from).format(
-                        'MMMM D, YYYY'
-                      )} - ${detail.date.to}`"
-                    >
+                    <span v-else-if="
+                      detail.date.from && detail.date.to == 'Present'
+                    " :title="`${moment(detail.date.from).format(
+                      'MMMM D, YYYY'
+                    )} - ${detail.date.to}`">
                       {{ moment(detail.date.from).format(detail.date.format) }}
                       -
                       {{ detail.date.to }}
@@ -109,18 +77,11 @@
                   </div>
                   <div class="col col-9">
                     <div class="text-h7" v-html="detail.label" />
-                    <div
-                      class="text-italic"
-                      v-html="detail.description"
-                      v-if="!reference || data.label != 'CHARACTER REFERENCES'"
-                    />
+                    <div class="text-italic" v-html="detail.description"
+                      v-if="!reference || data.label != 'CHARACTER REFERENCES'" />
                     <div>
                       <ul>
-                        <li
-                          v-for="(message, j) in detail.messages"
-                          :key="`message${j}`"
-                          v-html="message"
-                        ></li>
+                        <li v-for="(message, j) in detail.messages" :key="`message${j}`" v-html="message"></li>
                       </ul>
                     </div>
                   </div>
@@ -164,6 +125,10 @@ import(`./data/${id}.json`).then((module) => {
 </script>
 
 <style lang="scss" scoped>
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
 .text-h7 {
   font-size: medium;
   font-weight: bold;
