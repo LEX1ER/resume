@@ -36,7 +36,7 @@
     "vite-plugin-dynamic-import": "^1.5.0"
   },
   "engines": {
-    "node": "^18 || ^16 || ^14.19",
+    "node": "24.x",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
   }
