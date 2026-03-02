@@ -8,13 +8,13 @@ const routes: RouteRecordRaw[] = [
       { path: '', component: () => import('pages/1/resume-page.vue') },
     ],
   },
-  {
-    path: '/resume/2/:id',
-    component: () => import('layouts/app-layout.vue'),
-    children: [
-      { path: '', component: () => import('pages/2/resume-page.vue') },
-    ],
-  },
+  // {
+  //   path: '/resume/2/:id',
+  //   component: () => import('layouts/app-layout.vue'),
+  //   children: [
+  //     { path: '', component: () => import('pages/2/resume-page.vue') },
+  //   ],
+  // },
 
   // Always leave this as last one,
   // but you can also remove it
